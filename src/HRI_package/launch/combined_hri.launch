@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find nao_bringup)/launch/nao_full_py.launch"/>
+  <node name="interaction" pkg="HRI_package" type="interaction.py"/>
+</launch>
+
